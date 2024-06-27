@@ -10,6 +10,11 @@ def print_greeting(name):
     greeting = "Hello, " + name
     print(greting)
 
+def calculate_volume(length, width, height):
+    # Incorrect formula for volume
+    volume = length + width + height
+    return volume
+
 if __name__ == '__main__':
     # Incorrect variable name and missing argument in function call
     area_of_circle = calculate_are(5)
@@ -17,3 +22,7 @@ if __name__ == '__main__':
 
     # Missing quotes around string
     print_greeting(John)
+
+    # Incorrect arguments for volume calculation
+    volume_of_box = calculate_volume(5, 3)
+    print("Volume of the box:", volume_of_box)
